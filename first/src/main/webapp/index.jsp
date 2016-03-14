@@ -15,7 +15,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>This is index.JSP.</h1>
+	<h1>This is index.JSP.with.OpenLayers</h1>
 	<div id="map" class="map"></div>
     <script>
       var openCycleMapLayer = new ol.layer.Tile({
@@ -61,5 +61,7 @@
         })
       });
     </script>
+    
+	<h3>by Teasun</h3>
 </body>
 </html>
